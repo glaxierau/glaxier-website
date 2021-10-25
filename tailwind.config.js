@@ -21,11 +21,17 @@ module.exports = {
         purple: {
           DEFAULT: '#9FB0E4'
         }
+      },
+      boxShadow: {
+        around: '0px 2px 27px -6px rgba(0,0,0,0.59)',
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderStyle: ['responsive', 'hover'],
+      borderWidth: ['responsive', 'hover'],
+    },
   },
   plugins: [],
 }

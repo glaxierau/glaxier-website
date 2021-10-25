@@ -8,8 +8,8 @@
 
 <script>
 import Header from '../components/layout/header.vue'
-import Banner from '../components/banner.vue'
-import ServicesSection from '../components/ServicesSection.vue'
+import Banner from '../components/banner/banner.vue'
+import ServicesSection from '../components/services/ServicesSection.vue'
 
 export default {
   components:{
