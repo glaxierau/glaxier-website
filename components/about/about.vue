@@ -4,8 +4,7 @@
             <div class="leftimg"/>
         </div>
         <div class="w-1/2 flex flex-col items-center justify-center">
-            <curvy-line color="#CFD7F1"/>
-            <h2 class="">Who is Glaxier?</h2> <br> <br> 
+            <Title title="Who is Glaxier?" lineColor="#CFD7F1"/> <br> <br>
             <div class="relative list_container flex justify-between">
                 <div class="line bg-red-dark"/>
                 <check-icon label="Passionate" />
@@ -29,12 +28,14 @@
 import CurvyLine from '../lines/curvyline.vue'
 import CheckIcon from '../icons/checkIcon.vue'
 import AppButton from '../button/appButton.vue'
+import Title from '../title/title.vue'
 export default {
     name: 'AboutSection',
     components: {
         CurvyLine,
         CheckIcon,
-        AppButton
+        AppButton,
+        Title
     }
 }
 </script>

@@ -14,8 +14,7 @@
             <AppCircle style="bottom:2rem; left: 14%" title="Social Media Management" />
             <AppCircle style="bottom:2rem; right: 20%" title="Website Development" />
             <div class="flex items-center justify-center flex-col mt-6">
-                <curvy-line/>
-                <h2>Our Services</h2> <br>
+                <Title title="Our Services" lineColor="#fff"/> <br>
                 <h3 class="font-extrabold text-lg">We can do these awesome things</h3> <br>
                 <p class="w-96 text-xs text-white font-thin leading-5">Our team has a collaborative and hollistic view of the digital landscape. Our services range from the fundamental assets such as a website, brochures, logo, to your outreach strategy to attract your perfect target customers.</p>
             </div>

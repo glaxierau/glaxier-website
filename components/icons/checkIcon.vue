@@ -5,7 +5,7 @@
                 <path id="Icon_feather-check" data-name="Icon feather-check" d="M30,9,13.5,25.5,6,18" transform="translate(-3.879 -6.879)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
             </svg>
         </div>
-        <p class="text-blue-light font-thin" style="font-size: 0.8rem">{{label}}</p>
+        <p class="text-purple font-thin" style="font-size: 0.8rem">{{label}}</p>
     </div>
 </template>
 
