@@ -1,7 +1,7 @@
 <template>
     <div class="bg_img h-screen pt-10">
-        <div class="overlay pt-10">
-            <div class="w-1/2 h-3/5 flex justify-center items-center flex-col">
+        <div class="relative overlay pt-10">
+            <div class="absolute top-16 left-40 w-1/3 h-3/5 flex justify-center items-center flex-col">
                 <h3 class="text-white text-2xl font-normal mb-3">HEY! WE ARE</h3>
                 <h1 class="glaxier_txt text-white text-7xl">Glaxier!</h1>
                 <div class="flex">

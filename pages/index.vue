@@ -1,21 +1,15 @@
 <template>
   <div class="app">
-    <Header/>
-    <Banner/>
-    <ServicesSection/>
+    <Home/>
   </div>
 </template>
 
 <script>
-import Header from '../components/layout/header.vue'
-import Banner from '../components/banner/banner.vue'
-import ServicesSection from '../components/services/ServicesSection.vue'
+import Home from './home.vue'
 
 export default {
   components:{
-    Header,
-    Banner,
-    ServicesSection
+    Home
   }
 }
 </script>
@@ -29,6 +23,12 @@ export default {
   }
   html {
     font-family: 'Poppins';
+  }
+  h2 {
+    @apply text-3xl font-black
+  }
+  p {
+    font-size: 0.75rem;
   }
 </style>
 
