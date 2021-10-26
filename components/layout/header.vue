@@ -32,7 +32,7 @@ export default {
 <style scoped>
     li {
         color: #90ACD1;
-        font-size: 14px
+        font-size: 13px
     }
     li:hover{
         color: #BE4938;

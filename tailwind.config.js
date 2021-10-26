@@ -27,7 +27,13 @@ module.exports = {
       },
       boxShadow: {
         around: '0px 2px 27px -6px rgba(0,0,0,0.59)',
-      }
+      },
+      height: {
+        lg: '26rem',
+      },
+      width: {
+        lg: '20rem',
+      },
     },
   },
   variants: {

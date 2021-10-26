@@ -7,6 +7,7 @@
     <Client/>
     <Project />
     <Testimonial />
+    <Articles />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import AboutSection from '../components/about/about.vue'
 import Client from '../components/client/client.vue'
 import Project from '../components/project/project.vue'
 import Testimonial from '../components/testimonial/testimonial.vue'
+import Articles from '../components/articles/articles.vue'
 
 export default {
     name: 'Home',
@@ -28,7 +30,8 @@ export default {
         AboutSection,
         Client,
         Project,
-        Testimonial
+        Testimonial,
+        Articles
     }
 }
 </script>
