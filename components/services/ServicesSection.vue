@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white-dark">
+    <div class="bg-white-dark pt-10">
         <div class="px-44">
             <h2 class="text-3xl font-extrabold mb-5">We are</h2>
             <h1 class="text-3xl font-extrabold text-red mb-8">Digital Advertising Specialists.</h1>
