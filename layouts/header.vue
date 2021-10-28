@@ -2,8 +2,9 @@
     <header>
         <nav class="fixed z-40 top-0 bg-white w-full h-20 px-28 flex justify-between shadow-sm">
             <!-- logo section -->
-            <div class="w-40 h-20">
+            <div class="w-40 h-20 flex items-center justify-start">
             <!-- logo here... -->
+            <img src="~/assets/img/header/logo.png" width="110" alt="logo">
             </div>
 
             <!-- navigation  -->

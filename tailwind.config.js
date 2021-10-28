@@ -34,6 +34,9 @@ module.exports = {
       width: {
         lg: '20rem',
       },
+      fontSize: {
+        xs: '0.75rem',
+      },
     },
   },
   variants: {

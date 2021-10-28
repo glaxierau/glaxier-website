@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute bg-white rounded-full" :class="`h-${size} w-${size}`"/>
+    <div class="absolute z-10 bg-white rounded-full" :class="`h-${size} w-${size}`"/>
 </template>
 
 <script>

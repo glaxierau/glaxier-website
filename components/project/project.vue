@@ -1,8 +1,11 @@
 <template>
-    <div class="bgImage flex flex-col items-center justify-center">
-        <h3 class="text-2xl text-white font-bold">Let’s talk about “OUR” project.</h3>
-        <br> <br>
-        <AppButton :customed="true" title="CLICK" px="20" color="transparent" hoverColor="bg-white" txtColor="text-white" txtHover="text-blue-dark" />
+    <div class="relative flex flex-col items-center justify-center -m-3">
+        <img src="~/assets/img/home/largeimg.png" class="bg_image" alt="bg-image">
+        <div class="absolute lg:top-24 top-12 z-10 flex flex-col items-center justify-center">
+            <h3 class="lg:text-2xl text-xl text-white font-bold lg:mb-12 mb-2">Let’s talk about “OUR” project.</h3>
+            <!-- <br> <br> -->
+            <AppButton :customed="true" title="GET STARTED" width="w-52" color="transparent" hoverColor="bg-white" txtColor="text-white" txtHover="text-blue-dark" />
+        </div>
     </div>
 </template>
 
@@ -17,13 +20,18 @@ export default {
 </script>
 
 <style scoped>
-    .bgImage {
-        background-image: url('~/assets/img/home/largeimg.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .bg_image{
         width: 100%;
         height: 22rem;
-        margin-top: -1rem;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        margin-top: -5px;
+    }
+    @media screen and (max-width: 1090px) {
+        .bg_image {
+            height: 12rem;
+        }
     }
 </style>
