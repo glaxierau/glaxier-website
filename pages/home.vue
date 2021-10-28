@@ -5,7 +5,7 @@
     <AboutSection />
     <Client/>
     <Project />
-    <!-- <Testimonial /> -->
+    <Testimonial />
     <!-- <Articles /> -->
   </div>
 </template>
