@@ -8,7 +8,7 @@
             </div>
 
             <!-- navigation  -->
-            <ul class="flex w-1/2 justify-around items-center">
+            <ul class="flex w-3/5 justify-around items-center">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Service</li>

@@ -6,7 +6,7 @@
     <Client/>
     <Project />
     <Testimonial />
-    <!-- <Articles /> -->
+    <Articles />
   </div>
 </template>
 

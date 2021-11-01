@@ -1,5 +1,5 @@
 <template>
-    <div class="w-lg h-lg bg-white shadow-sm m-4">
+    <div class="h-lg lg:w-lg w-80 bg-white shadow-sm lg:m-4 m-2">
         <!-- image -->
         <div class="article_image" :style="`background-image:url(${require('~/assets/img/images/article.jpg')}) `" />
         <!-- meta -->

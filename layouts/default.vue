@@ -1,9 +1,9 @@
 <template>
     <div class="myApp">
-        <Header v-if="!isMobile"/>
-        <MobileHeader v-if="isMobile" />
+        <Header class="lg:flex hidden"/>
+        <MobileHeader class="lg:hidden" />
         <Nuxt/>
-        <!-- <Footer /> -->
+        <Footer />
     </div>
 </template>
 
@@ -11,18 +11,12 @@
 import Header from './header.vue'
 import Footer from './footer.vue'
 import MobileHeader from './mobileHeader.vue'
-import {store} from '~/store/store.js'
 export default {
     components: {
         Header,
         Footer,
         MobileHeader
     },
-    computed: {
-        isMobile(){
-            return store.isMobile
-        }
-    }
 }
 </script>
 
